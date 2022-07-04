@@ -1,0 +1,9 @@
+LICENSE
+README.md
+json2bookmarks
+setup.py
+json2bookmarks.egg-info/PKG-INFO
+json2bookmarks.egg-info/SOURCES.txt
+json2bookmarks.egg-info/dependency_links.txt
+json2bookmarks.egg-info/requires.txt
+json2bookmarks.egg-info/top_level.txt

@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: json2bookmarks
+Version: 0.1
+Summary: A package to make a bookmark site from json data.
+Home-page: https://github.com/shivanshu-semwal/json2bookmarks
+Author: Shivanshu Semwal
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# json2bookmarks
+
+`json2bookmarks` helps to convert a bookmarks file in json format
+to a html file.
+
+## How it works
+
+Let's take a sample json file,
+
+```json
+{
+    "items": [
+        {
+            "title": "google",
+            "site": "http://www.google.com",
+        },
+        {
+            "site": "http://web.whatsapp.com"
+        }
+    ]
+}
+```
+
+- Notice that the bookmarks are inside `"items"` as a array of object
+- Every bookmark can have `"title"`, `"site"`, `"image"`
+- If the image is empty when you run the script on the file it will 
+  generate a html file and also update you current file with the 
+  `favicon` image for the site for the `"image"` key.
+
+# License
+
+[MIT](./LICENSE)
+
